@@ -1,12 +1,14 @@
 # Pertemuan 05 Perulangan Python
 
-**Nama:** Farid Syahputra
-**NIM:** 2225250222
-**Kelas:** 3F
-**Mata Kuliah:** Algoritma dan Pemrograman
-**Program Studi:** Pendidikan Matematika
-**Fakultas:** FKIP
-**Universitas:** Universitas Sultan Ageng Tirtayasa
+| Keterangan        | Data                               |
+| ----------------- | ---------------------------------- |
+| **Nama**          | Farid Syahputra                    |
+| **NIM**           | 2225250222                         |
+| **Kelas**         | 3F                                 |
+| **Mata Kuliah**   | Algoritma dan Pemrograman          |
+| **Program Studi** | Pendidikan Matematika              |
+| **Fakultas**      | FKIP                               |
+| **Universitas**   | Universitas Sultan Ageng Tirtayasa |
 
 ---
 
@@ -158,7 +160,7 @@ python latihan/03_validasi_input.py
 
 ### Test Case
 
-Input:
+**Input:**
 
 ```text
 120
@@ -166,7 +168,7 @@ Input:
 75
 ```
 
-Output:
+**Output:**
 
 ```text
 Nilai tidak valid.
@@ -261,10 +263,10 @@ python kuis/kuis2_deret_aritmetika.py
 ## Test Case Kuis 2
 
 | No |   a |   d |  n | Suku            | Jumlah | Status   |
-| -- | --: | --: | -: | --------------- | -----: | -------- |
-| 1  |   2 |   3 |  5 | 2, 5, 8, 11, 14 |  40.00 | Berhasil |
-| 2  |  10 |  -2 |  4 | 10, 8, 6, 4     |  28.00 | Berhasil |
-| 3  | 1.5 | 0.5 |  3 | 1.5, 2.0, 2.5   |   6.00 | Berhasil |
+| -: | --: | --: | -: | --------------- | -----: | -------- |
+|  1 |   2 |   3 |  5 | 2, 5, 8, 11, 14 |  40.00 | Berhasil |
+|  2 |  10 |  -2 |  4 | 10, 8, 6, 4     |  28.00 | Berhasil |
+|  3 | 1.5 | 0.5 |  3 | 1.5, 2.0, 2.5   |   6.00 | Berhasil |
 
 ---
 
@@ -345,15 +347,19 @@ Beberapa commit yang digunakan:
 
 ```bash
 git add .
+
 git commit -m "feat: menambahkan latihan perulangan pertemuan 05"
 
 git add latihan
+
 git commit -m "feat: menyelesaikan latihan for dan while"
 
 git add kuis/kuis2_deret_aritmetika.py
+
 git commit -m "feat: menyelesaikan kuis 2 deret aritmetika"
 
 git add README.md
+
 git commit -m "docs: menambahkan hasil uji dan refleksi"
 ```
 
